@@ -18,7 +18,7 @@ public class Main {
                 new WasteContainer("Unknown", 20)
         };
 
-        System.out.println("🔄 Processing Waste Collection:");
+        System.out.println("Processing Waste Collection:");
         for (WasteContainer container : wasteContainers) {
             organicCollector.collect(container);
         }
